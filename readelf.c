@@ -12659,7 +12659,7 @@ process_symbol_table (Filedata * filedata)
 		printf("\nThere are no GLOBAL symbols in this file.\n");
 		}
 	else if(global_sym_counter==1){
-		printf("\nThere is 1 Global symbol in this file.\n");
+		printf("\nThere is 1 GLOBAL symbol in this file.\n");
 		}	
 	else printf("\nThere are %d GLOBAL symbols in this file.\n", global_sym_counter);
 	global_sym_counter=0;
